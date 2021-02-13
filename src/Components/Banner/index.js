@@ -27,7 +27,8 @@ function Banner() {
                 items = {images}
             />
             <div className="banner_search">
-                    <input type="text" className="search_bar"/>
+                    <input type="text" className="search_bar" placeholder="Search artist, music, or album"/>
+                    <button class="upload_button">Upload music</button>
             </div>
         </div>
     )
