@@ -1,14 +1,16 @@
 import React from 'react'
 import './style.css'
+import MusicCard from'../MusicCard'
 function Body() {
     return (
         <div className="body_container">
-            <h4>AfroTrap</h4>
-            <h4>Coupé decalé</h4>
-            <h4>Electronic</h4>
-            <h4>Hip-Hop</h4>
-            <h4>Jazz</h4>
-            <h4>RnB</h4>
+           <MusicCard/>
+           <MusicCard/>
+           <MusicCard/>
+           <MusicCard/>
+           <MusicCard/>
+           <MusicCard/>
+           <MusicCard/>
         </div>
     )
 }

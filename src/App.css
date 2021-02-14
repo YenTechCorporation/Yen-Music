@@ -1,15 +1,13 @@
 .app{
   display: flex;
-  flex:1;
+  flex:1 1 auto;
   flex-direction: column;
   margin: 0;
-  width: 100vw;
+  width: fit-content;
   height: fit-content;
   align-items: center;
-  background-image: url(./Images/photos/music1.jpg);
-  background-position: center center;
-  /* background: linear-gradient(
-    rgba(251, 253, 253, 0.144),
-    rgba(200, 201, 202, 0.116)
-  ); */
+  justify-content: flex-start;
+  background-image: url(./Images/photos/music5.jpg);
+  background-position: start start;
+
 }

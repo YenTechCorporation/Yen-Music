@@ -1,0 +1,22 @@
+.header_buttons{
+    display:flex;
+    flex-direction:row;
+    width:fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.login_button{
+    background-color: green;
+    color: white;
+    padding:10px;
+    margin-right: 15px;
+}
+
+.lang_button{
+    background-color: green;
+    color: white;
+    padding:10px;
+}
