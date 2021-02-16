@@ -1,0 +1,22 @@
+.uploadMusic_container{
+    height: fit-content;
+    width:50%;
+    border: 5px solid black;
+    margin-left: 10px;
+    padding: 10px;
+    justify-content:space-between;
+}
+
+.uploadMusic_container input{
+    border-radius: 0px;
+    min-height: 30px;
+}
+
+.uploadMusic_container label{
+    padding: 5px;
+}
+
+.uploadMusic_container textarea{
+    width:100%;
+    min-height:100px;
+}
